@@ -77,18 +77,18 @@ Menampilkan kode kustom validation : php artisan lang:publish
 Menjalankan laravel dijaringan : php artisan serve --host 0.0.0.0
 
 Upload project ke GitHub:
-git init
-git add README.md
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/userName/repoName.git
-git push --force origin master
+1. git init
+2. git add README.md
+3. git add .
+4. git commit -m "first commit"
+5. git remote add origin https://github.com/userName/repoName.git
+6. git push --force origin master
 
 Jika terjadi error coba gunakan:
-git fetch origin master:tmp
-git rebase tmp
-git push origin HEAD:master
-git branch -D tmp
+1. git fetch origin master:tmp
+2. git rebase tmp
+3. git push origin HEAD:master
+4. git branch -D tmp
 
 Referensi: https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
 
